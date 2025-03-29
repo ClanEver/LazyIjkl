@@ -153,7 +153,7 @@ Use LazyIjkl
 
 ---
 
-If you disable flash.nvim, please uncomment these lines in `~/.config/nvim/lua/config/keymaps.lua`.
+If you don't use flash.nvim, you should uncomment these lines in `~/.config/nvim/lua/config/keymaps.lua`.
 
 ```lua
     for _, find_key in ipairs({
