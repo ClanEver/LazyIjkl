@@ -12,6 +12,10 @@ M.ijkl_map = {
 }
 
 function M.map_to_ijkl(str)
+  if type(str) ~= "string" then
+    return str
+  end
+
   local len = #str
   if len == 0 then
     return str
